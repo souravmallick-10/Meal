@@ -1,0 +1,76 @@
+*{
+    font-family:sans-serif ;
+    margin: 0;
+ 
+ }
+ 
+ body{
+     background-color:#e7e9eb;
+ }
+ 
+ h2{
+     font-size: medium;
+ }
+ 
+ 
+ i{
+     font-size: 28px;
+     margin: 5px;
+     color:#e67f3b;
+ }
+ 
+ /* header */
+ header{
+     background-color: #282a35;
+     line-height: 2.2rem;
+ }
+ 
+ header div{
+     width: 30%;
+     display: flex;
+     justify-content: space-evenly;
+     color: #ff6347;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ 
+ /* anchor tag */
+ a{
+     text-decoration: none;
+     color: #1e90ff; 
+ }
+ 
+
+#container{
+    margin:50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* style external meal list(api meal list) */
+
+#meal-img-container{
+    width: 25%;
+}
+#meal-detail-container{
+    width: 55%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+#headings{
+    width:50%;
+}
+.detail-class{
+    margin-bottom:30px;
+}
+#ins{
+    width: 40%;
+}
+/* set external image size */
+#main-image img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border: 1px solid darkslategray;
+}
